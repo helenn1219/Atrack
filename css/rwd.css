@@ -1,0 +1,212 @@
+/* 區間  */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .landing, .landing > .row{
+        min-height: 80vh;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .vision {
+        width: 45%;
+    }
+    .slogan{
+        text-align: right !important;
+    }
+}
+
+/* 區間  */
+@media screen and (min-width: 768px) and (max-width: 1480px){
+    .container-fluid.w-1480, .container-fluid.w-1280, .container-fluid.w-1140, .container-fluid.w-960{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
+@media screen and (min-width: 575px) and (max-width: 768px){
+    .slogan{
+        text-align: center !important;
+    }
+    .section1 .slogan {
+        padding: 0;
+    }
+    .vision{
+        transform: scale(0.7) !important;
+        top: 42%;
+    }
+}
+
+/* ---------------------------------------- */
+@media screen and (min-width: 1200px){
+    .section1 .slogan{
+        padding-top: 135px;
+        padding-left: 87px;
+    }
+    .section1 .vision{
+        padding-top: 135px;
+        padding-right: -87px;
+    }
+}
+@media screen and (min-width: 992px){
+
+    .section2 .wrapper{
+        margin-bottom: 100px;
+    }
+    @keyframes scale2{
+        0%{
+            background-color: rgba(255, 230, 0, 0.75);
+            opacity: 1;
+            transform: scale(0);
+            transform-origin: center;
+        }
+        70%{
+            opacity: 0.8;
+        }
+        100%{
+            background-color: rgba(255, 217, 2, 0.85);
+            opacity: 0;
+            transform: scale(1.5);
+            transform-origin: center;
+        }
+    }
+}
+@media screen and (max-width: 991px){
+    /*轉型痛點*/
+    .section2 .c-area {
+    top: 0px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    section[class^="section"] {
+        padding: 60px 0 40px;
+    }
+    /* 聯絡我們 */
+    .contact-form-page{
+        padding-top: 90px;
+        background: url(../img/contact-bg.jpg) no-repeat center right/auto 100%;
+     }
+     /*h2標題字大小*/
+    .title h2{
+        font-size: 1.5rem;
+     }
+    h3{
+        font-size: 1.2rem;
+     }
+     /* 首頁 */
+    .vision {
+        position: absolute;
+        transform: scale(0.5);
+    }
+    .vision img {
+    
+    }
+    .section1 .slogan{
+        padding: 10%;
+        margin-bottom: 54%;
+    }
+
+    .section3 .ways{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -10px;
+    }
+    .section2{
+        padding: 22px 0 40px !important;
+    }
+    .section2 .who h4{
+        font-size: 5vmin;
+    }
+    .section2 .who h2{
+        font-size: 5.5vmin;
+    }
+    .section2 h3 {
+        font-size: 18px;
+    }
+    /*主視覺背景*/
+    .section1 .background{
+        background-image: url(../img/main-full.jpg);
+        background-size: cover;
+        top: 0; 
+        background-position: center;
+    }
+    .section1{
+        padding: 0 0 260px !important;
+    }
+    .section4 {
+        background: url(../img/case-full.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }    
+
+    .section6 .form{
+        padding: 18px;
+    }
+    .section6 .title{   
+        margin-bottom: 35px !important;
+    }
+    footer .social-icon{
+        padding-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 575px){
+    .slogan h1 {
+        font-size: 9vmin;
+        text-align: center;
+    }
+    .slogan h2{
+        text-align: center;
+        font-size: 17px;
+    }
+    .section1 .slogan a{
+        display: flex;
+        justify-content: center;
+    }
+    .title img {
+        max-width: 26vmin;
+    }
+    .section1 .vision{
+        top: 42%;
+    }
+
+    .section2 .who{
+        padding: 13px 25px 5px;
+    }
+    .section4 .title {
+        padding: 0px 10px;
+    }
+    .section6 {
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+    }
+    .section6 .title{
+        padding: 0 16px;
+    }
+    .section6 .form{
+        padding: 5%;
+    }
+    .section6 .form {
+        padding-bottom: 50px;
+    }
+
+
+}
+@media screen and (max-width: 400px){
+    .section1 .background {
+        display: flex;
+        min-height: 100vh;
+    }
+    .section1 .slogan {
+        margin-bottom: 46%;
+    }
+
+}
+@media screen and (max-width: 350px){
+    .section1 .slogan {
+        margin-bottom: 46%;
+    }
+    .vision{
+        transform: scale(0.4);
+    }
+}
+

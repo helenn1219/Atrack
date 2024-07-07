@@ -1,0 +1,187 @@
+@keyframes aniDraw{
+   to { stroke-dashoffset: 0;}
+}
+@keyframes op1{
+   to { opacity: 1;}
+}
+/* 跨渠道的對話式商務布建
+=================================== */
+#ani-icon-1 .st0{ opacity: 0.1;}
+#ani-icon-1 .st1{fill: #31bfcf;}
+#ani-icon-1 .st2{fill: #f99f00;}
+#ani-icon-1 .st3{fill: #e6ebf4;}
+#ani-icon-1 .st4{fill: #0e376f;}
+#ani-icon-1 .st5{fill: #ffffff;}
+#ani-icon-1 .st6{fill: #ffffff;stroke: #0e376f;stroke-linecap: round;stroke-linejoin: round;stroke-miterlimit: 10;stroke-width: 4;}
+#ani-icon-1 .st7{fill: #3a6ba5;}
+#ani-icon-1 .st8{fill: none;stroke: #0e376f;stroke-linecap: round;stroke-linejoin: round;stroke-miterlimit: 10;stroke-width: 4;}
+/* ------------------ */
+.martech-content.aniDraw #ani-icon-1 .st6{
+   stroke-dasharray: 580;
+   stroke-dashoffset: 580;
+   animation: aniDraw 3s 1.5s linear forwards;
+}
+.martech-content.aniDraw #ani-icon-1 .st1, .martech-content.aniDraw #ani-icon-1 .st7{
+   opacity: 0;
+   animation: op1 1.5s 1.5s linear forwards;
+}
+/* 快速導入、立即訓練Q&A
+=================================== */
+#ani-icon-2 .st0{fill:#E6EBF4;}
+#ani-icon-2 .st1{opacity:0.1;}
+#ani-icon-2 .st2{fill:#31BFCF;}
+#ani-icon-2 .st3{fill:#F99F00;}
+#ani-icon-2 .st4{fill:#0E376F;}
+#ani-icon-2 .st5{fill:#FFFFFF;}
+#ani-icon-2 .st6-1, #ani-icon-2 .st6-2{fill:#FFFFFF;stroke:#0E376F;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+#ani-icon-2 .st7{fill:#3A6BA5;}
+/* ----------------- */
+.martech-content.aniDraw #ani-icon-2 .st6-1{
+   stroke-dasharray: 580;
+   stroke-dashoffset: 580;
+   animation: aniDraw 3s 1.5s linear forwards;
+}
+.martech-content.aniDraw #ani-icon-2 .st6-2{
+   stroke-dasharray: 580;
+   stroke-dashoffset: 580;
+   animation: aniDraw 3s 1.5s linear forwards;
+}
+.martech-content.aniDraw #ani-icon-2 .st2{
+   opacity: 0;
+   animation: op1 1.5s 2.5s linear forwards;
+}
+.martech-content.aniDraw #ani-icon-2 .st7{
+   opacity: 0;
+   animation: op1 1.5s 2.5s linear forwards;
+}
+/* 多元應用模組
+=================================== */
+#ani-icon-3 .st0{fill:#E6EBF4;}
+#ani-icon-3 .st1{opacity:0.1;}
+#ani-icon-3 .st2{fill:#F99F00;}
+#ani-icon-3 .st3{fill:#31BFCF;}
+#ani-icon-3 .st4{fill:#0E376F;}
+#ani-icon-3 .st5{fill:#FAFBFC;}
+#ani-icon-3 .st6{fill:#3A6BA5;}
+#ani-icon-3 .st7, #ani-icon-3 .st7-1, #ani-icon-3 .st7-2, #ani-icon-3 .st7-3, #ani-icon-3 .st7-4{fill:none;stroke:#082158;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+#ani-icon-3 .st8{fill:none;stroke:#F99F00;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+#ani-icon-3 .st9{fill:#FAFBFC;stroke:#082158;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+#ani-icon-3 .st10{fill:none;stroke:#082158;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+#ani-icon-3 .st11{fill:#082158;}
+/* ----------------- */
+.martech-content.aniDraw #ani-icon-3 .st8{
+   opacity: 0;
+   animation: op1 1.5s 2.5s linear forwards;
+}
+.martech-content.aniDraw #ani-icon-3 .st7-1, .martech-content.aniDraw #ani-icon-3 .st7-2, .martech-content.aniDraw #ani-icon-3 .st7-3, .martech-content.aniDraw #ani-icon-3 .st7-4{
+   stroke-dasharray: 200;
+   stroke-dashoffset: 200;
+}
+.martech-content.aniDraw #ani-icon-3 .st7-1{
+   animation: aniDraw 1s 2.5s linear forwards;
+}
+.martech-content.aniDraw #ani-icon-3 .st7-2{
+   animation: aniDraw 2s 1.5s linear forwards;
+}
+.martech-content.aniDraw #ani-icon-3 .st7-3{
+   animation: aniDraw 2.5s 1.5s linear forwards;
+}
+.martech-content.aniDraw #ani-icon-3 .st7-4{
+   animation: aniDraw 1.5s 1.5s linear forwards;
+}
+/* 愛酷服務
+=================================== */
+#ani-icon-4, #ani-icon-5, #ani-icon-6, #ani-icon-7{
+   position: absolute;
+}
+/* 新強效行銷工具
+=================================== */
+#ani-icon-4 .st0{opacity:0.1;}
+#ani-icon-4 .st1{fill:#31BFCF;}
+#ani-icon-4 .st2{fill:#F99F00;}
+#ani-icon-4 .st3{fill:#E6EBF4;}
+#ani-icon-4 .st4{fill:#FFFFFF;stroke:#0E376F;stroke-width:4.75;stroke-miterlimit:10;}
+#ani-icon-4 .st5{fill:none;stroke:#0E376F;stroke-width:5.8687;stroke-miterlimit:10;}
+#ani-icon-4 .st6{fill:none;stroke:#0E376F;stroke-width:5.7123;stroke-miterlimit:10;}
+#ani-icon-4 .st7{fill:none;stroke:#0E376F;stroke-width:4.9314;stroke-miterlimit:10;}
+#ani-icon-4 .st8, #ani-icon-4 .st8-1{fill:#FFFFFF;stroke:#0E376F;stroke-width:5.7123;stroke-miterlimit:10;}
+#ani-icon-4 .st9{fill:#0E376F;}
+#ani-icon-4 .st10{fill:#FFFFFF;}
+/* --------- */
+#ani-icon-4 .st8-1{
+   stroke-dasharray: 580;
+   stroke-dashoffset: 580;
+   animation: aniDraw 3s linear infinite;
+}
+#ani-icon-4 .st1{
+   opacity: 0;
+   animation: op1 1.5s linear infinite;
+}
+/* 多渠道數據收集
+=================================== */
+#ani-icon-5 .st0{fill:#E6EBF4;}
+#ani-icon-5 .st1{opacity:0.1;}
+#ani-icon-5 .st2{fill:#F99F00;}
+#ani-icon-5 .st3{fill:#31BFCF;}
+#ani-icon-5 .st4{fill:#FFFFFF;stroke:#0E376F;stroke-width:4.75;stroke-miterlimit:10;}
+#ani-icon-5 .st5{fill:#3A6BA5;}
+#ani-icon-5 .st6{fill:#0E376F;}
+#ani-icon-5 .st7{fill:none;stroke:#0E376F;stroke-width:4.75;stroke-miterlimit:10;}
+#ani-icon-5 .st8{fill:#FFFFFF;stroke:#0E376F;stroke-width:4.7562;stroke-miterlimit:10;}
+/* --------- */
+#ani-icon-5 path.st2, #ani-icon-5 path.st3, #ani-icon-5 path.st5{
+   opacity: 0;
+   animation: op1 1.5s linear infinite;
+}
+#ani-icon-5 .st8, #ani-icon-5 circle.st4, #ani-icon-5 .st7{
+   stroke-dasharray: 280;
+   stroke-dashoffset: 280;
+   animation: aniDraw 3s linear infinite;
+}
+/* 遠離IT部門
+=================================== */
+#ani-icon-6 .st0{fill:#E6EBF4;}
+#ani-icon-6 .st1{opacity:0.1;}
+#ani-icon-6 .st2{fill:#31BFCF;}
+#ani-icon-6 .st3{fill:#F99F00;}
+#ani-icon-6 .st4, #ani-icon-6 .st4-1{fill:#FFFFFF;stroke:#0E376F;stroke-width:5.0124;stroke-miterlimit:10;}
+#ani-icon-6 .st5{fill:#FFFFFF;stroke:#0E376F;stroke-width:4.75;stroke-miterlimit:10;}
+#ani-icon-6 .st6, #ani-icon-6 .st6-1, #ani-icon-6 .st6-2{fill:none;stroke:#0E376F;stroke-width:5.0124;stroke-miterlimit:10;}
+#ani-icon-6 .st7{fill:#FFFFFF;}
+#ani-icon-6 .st8{fill:#0E376F;}
+/* --------- */
+#ani-icon-6 path.st2, #ani-icon-6 path.st3{
+   opacity: 0;
+   animation: op1 1.8s linear infinite;
+}
+#ani-icon-6 .st6-1, #ani-icon-6 circle.st4-1{
+   stroke-dasharray: 580;
+   stroke-dashoffset: 580;
+   animation: aniDraw 3s linear infinite;
+}
+#ani-icon-6 .st6-2{
+   stroke-dasharray: 100;
+   stroke-dashoffset: 100;
+   animation: aniDraw 3s linear infinite;
+}
+/* 全新接觸點/應用
+=================================== */
+#ani-icon-7 .st0{opacity:0.1;}
+#ani-icon-7 .st1{fill:#31BFCF;}
+#ani-icon-7 .st2{fill:#F99F00;}
+#ani-icon-7 .st3{fill:#E6EBF4;}
+#ani-icon-7 .st4, #ani-icon-7 .st4-1{fill:#FFFFFF;stroke:#0E376F;stroke-width:4.75;stroke-miterlimit:10;}
+#ani-icon-7 .st5{fill:none;stroke:#0E376F;stroke-width:7.8383;stroke-miterlimit:10;}
+#ani-icon-7 .st6{fill:#0E376F;}
+#ani-icon-7 .st7{fill:none;stroke:#0E376F;stroke-width:4.75;stroke-miterlimit:10;}
+#ani-icon-7 .st8{fill:#FFFFFF;}
+/* --------- */
+#ani-icon-7 .st2, #ani-icon-7 path.st1{
+   opacity: 0;
+   animation: op1 4s linear infinite;
+}
+#ani-icon-7 .st7, #ani-icon-7 circle.st4-1{
+   stroke-dasharray: 580;
+   stroke-dashoffset: 580;
+   animation: aniDraw 4s linear infinite;
+}

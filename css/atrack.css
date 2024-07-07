@@ -1,0 +1,336 @@
+
+
+/* 區域背景 */
+.section1 {
+    background: #FFEDD2;
+}
+
+/* section1 首屏 */
+
+.section1 .background{
+    display: flex;
+    min-height: 100vh;
+    background: url(../img/main-s.png);
+    background-repeat: no-repeat;
+    top: -140px;
+    height: 100%;
+    background-position: top;
+    position: relative;
+}
+.section1 button{
+    background-color: #F47555;
+    color: #fff;
+    padding: 5px 25px;
+}
+.vision{
+    width: 600px;
+}
+.slogan {
+    font-weight: bold;
+    z-index: 10;
+    text-align: left !important;
+}
+.slogan h1 {
+    font-size: 5vmin;
+}
+.slogan img {
+    width: 100%;
+    max-width: 18.5vmin;
+    vertical-align: baseline;
+    margin: -4px 6px;
+}
+.slogan h2 {
+    font-size: 18px;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+/* section2 轉型痛點 */
+.section2 {
+    background: url(../img/orange.png);
+    background-position: bottom;
+    background-repeat: no-repeat; 
+    margin-top: -220px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.section2 img {
+    max-width: 100%;
+    object-fit: cover;   
+    width: 320px;
+
+}
+.section2 h3{
+    font-size: 21px;
+    background-color: #F5D789;
+    padding: 8px 20px 8px 40px;
+    border-radius: 50px;
+}
+.section2 .y-title {
+    position: relative;
+}
+.section2 .y-title span{
+    position: absolute;
+    left: 10px;
+    top: -8px;
+    width: 23px;
+}
+.section2 p{
+    text-align: left;
+}
+.section2 .c-area{
+    top: 100px;
+}
+.section2 .texts{
+    width: 320px;
+}
+
+/* section3 解決方案 */
+.section3 .wrapper h2 img{
+    height: inherit;
+}
+.section3 .wrapper img {
+    height: 210px;
+}
+.section3 .wrapper span{
+    width: 27px;
+}
+.section3 .wrapper .title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section3 .area1{
+    background: url(../img/1.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    width: 100%;
+    margin: 0 auto;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 430px;
+
+}
+.section3  .wrapper .ct{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section3 .area2{
+    background: url(../img/2.png); 
+    background-position: center;
+    background-repeat: no-repeat; 
+    width: 100%;
+    margin: 0 auto;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 430px;
+}
+.section3 .area3{
+    background: url(../img/3.png); 
+    background-position: center;
+    background-repeat: no-repeat; 
+    width: 100%;
+    margin: 0 auto;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 430px;
+}
+/*section4 成功案例*/
+.section4 {
+    background: url(../img/case.png);   
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+.section4 .title{
+    padding: 40px 0 0;
+}
+.section4 .wrapper{
+    padding-bottom: 80px;
+}
+.section4 .swiper-button-next,.section4 .swiper-button-prev{
+    color: #F3B1A4;
+}
+
+/* section5 */
+.section5 .title {
+    letter-spacing: 1px;
+}
+.section5 h4{
+    line-height: 1.5;
+}
+
+/* section6 聯絡我們 */
+
+.section6 {
+    background: url(../img/contact.png);
+    background-position: contain;
+    position: relative;
+}
+.section6 h2{
+    font-size: 3vmin;
+
+}
+
+.section6 input, .section6 select, .section6 textarea{
+    box-shadow: 2px 2px 4px rgba(2, 17, 37, 0.22);
+}
+.section6 .check{
+    display: inline-block;
+    text-align: left;
+}
+.section6 button{
+    background-color: #F47555;
+    color: #fff;
+    padding: 5px 25px;
+}
+
+.section6 .form {
+    padding-bottom: inherit;
+}
+
+select.form-style {
+    background: url(../img/caret.png) no-repeat right 16px center;
+    background-size: 8px;
+    background-position: contain;
+    font-weight: 300;
+    background-color: #fff;
+}
+
+.social-icon a {
+    font-size: 18px;
+    color: #FFCF5E;
+    transition: .3s;
+}
+.social-icon a:hover {
+    color: #fff;
+}
+
+/* Cookie樣式 */
+.cookie {
+    width: calc(100% - 2rem);
+    max-width: 800px;
+    min-width: 200px;
+    margin: 1rem;
+    background-color: rgba(255, 235, 173, 0.9);
+    border-radius: 16px;
+}
+
+/* 懸浮按鈕_聯絡我們 */
+/* .contact {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+}
+.contact a {
+    width: 60px;
+    height: 60px;
+    border-radius: 50% 50% 16px;
+    background: rgba(0,0,0,0.3);
+    text-align: center;
+    display: flex;
+    line-height: 1.3;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* checkbox樣式 */
+.checkbox {
+    margin-left: 2px;
+    display: inline-block;
+    width: 15px;
+}
+.checkbox ~ span.form-style {
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid #b9b9b9;
+    transition: .3s;
+    left: 2px;
+    top: 2px;
+    background: #fff;
+    padding: 0;
+}
+.checkbox:checked ~ span.form-style {
+    border: 1px solid #f99f00;
+    background: #f99f00;
+}
+.checkbox:checked ~ span.form-style::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 12px;
+    height: 5px;
+    border: 2px solid #fff;
+    border-width: 0 0 2px 2px;
+    left: 1px;
+    top: 3px;
+    transform: rotate(-45deg);
+}
+.checkwrapper {
+    margin-bottom: 0;
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+/* modal樣式 */
+.modal-header {
+    background: #f3f3f3;
+}
+.nav-link {
+    color: #8e8f90;
+    font-size: 18px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-color: transparent transparent #fff;
+    color: #d85000;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: transparent transparent #fff;
+    color: #d85000;
+}
+.modal {
+    height: 100vh;
+}
+.tab-content {
+    overflow-y: auto;
+    height: calc(90vh - 150px);
+}
+.btn-accuhit {
+    background-color: #114a9d;
+    border-color: #114a9d;
+    color: #fff;
+    transition: .3s;
+}
+.btn-line2 {
+    background-color: #00b900;
+    border-color: #00b900;
+    color: #fff;
+    transition: .3s;
+}
+.btn-accuhit:hover, .btn-line2:hover {
+    opacity: 0.8;
+    color: #fff;
+}
+
+/*適合對象*/
+.who {
+    background: #FFCF5E;
+    border: 3px solid #fff;
+    border-radius: 22px;
+    padding: 15px 46px 10px;
+    margin: 0 auto;
+    max-width: 620px;
+}
